@@ -4,7 +4,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'acts_as_list'
-  s.version = '1.0.20090227'
+  s.version = '1.0.20090228'
   s.date = '2009-02-27'
   
   s.summary = "Allows ActiveRecord Models to be easily ordered via position attributes"
@@ -20,11 +20,12 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', ['>= 2.1']
   
-   s.files = ["README",
-              "acts_as_list.gemspec",
-              "init.rb",
-              "lib/active_record/acts/list.rb",
-             ]
+   s.files = [
+    "README",
+    "acts_as_list.gemspec",
+    "lib/coupa-acts_as_list.rb",
+    "lib/active_record/acts/list.rb",
+  ]
   
   s.test_files = ["test/list_test.rb"]
 
