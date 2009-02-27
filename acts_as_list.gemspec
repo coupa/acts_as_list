@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = ""
   
   s.authors = ['David Heinemeier Hansson']
-  s.email = ''
+  s.email = 'jerry@coupa.com'
   s.homepage = 'http://github.com/coupa/acts_as_list'
   
   s.has_rdoc = true
@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
    s.files = ["README",
               "acts_as_list.gemspec",
               "init.rb",
-              "lib/acts_as_list.rb",
-              "rails/init.rb"]
+              "lib/active_record/acts/list.rb",
+             ]
   
   s.test_files = ["test/list_test.rb"]
 
