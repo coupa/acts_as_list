@@ -4,7 +4,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'acts_as_list'
-  s.version = '1.0.20090228'
+  s.version = '1.0.1'
   s.date = '2009-02-27'
   
   s.summary = "Allows ActiveRecord Models to be easily ordered via position attributes"
